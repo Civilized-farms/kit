@@ -1,152 +1,4 @@
-# @0xsequence/hooks
-
-## 6.0.9
-
-### Patch Changes
-
-- Auth screen fix
-
-## 6.0.8
-
-### Patch Changes
-
-- Bug fixes
-
-## 6.0.7
-
-### Patch Changes
-
-- Minor fee options improvement
-
-## 6.0.6
-
-### Patch Changes
-
-- Minor improvements
-
-## 6.0.5
-
-### Patch Changes
-
-- Powered by logo update
-
-## 6.0.4
-
-### Patch Changes
-
-- Fix for node urls
-
-## 6.0.3
-
-### Patch Changes
-
-- Remove unnecessary waas components
-
-## 6.0.2
-
-### Patch Changes
-
-- Fix for chain switch
-
-## 6.0.1
-
-### Patch Changes
-
-- Minor fixes
-
-## 6.0.0
-
-### Major Changes
-
-- 3313726: Connect package improvements for v6
-
-### Patch Changes
-
-- 3313726: ethauth fixes
-- 3313726: 6.0.0 beta fixes
-- 3313726: Ecosystem wallet config update
-- 3313726: ethauth support
-- 6.0.0 release
-
-## 6.0.0-beta.4
-
-### Patch Changes
-
-- Ecosystem wallet config update
-
-## 6.0.0-beta.3
-
-### Patch Changes
-
-- ethauth fixes
-
-## 6.0.0-beta.2
-
-### Patch Changes
-
-- ethauth support
-
-## 6.0.0-beta.1
-
-### Patch Changes
-
-- 6.0.0 beta fixes
-
-## 6.0.0-beta.0
-
-### Major Changes
-
-- Connect package improvements for v6
-
-## 5.4.8
-
-### Patch Changes
-
-- sequence.js dependency upgrades
-
-## 5.4.7
-
-### Patch Changes
-
-- sequence.js upgrades
-
-## 5.4.6
-
-### Patch Changes
-
-- Dependency updates
-
-## 5.4.5
-
-### Patch Changes
-
-- Fix for free items checkout, sequence dep upgrades
-
-## 5.4.4
-
-### Patch Changes
-
-- Sequence logo update
-
-## 5.4.3
-
-### Patch Changes
-
-- Minor fix for Sequence logo
-
-## 5.4.2
-
-### Patch Changes
-
-- - **Onramp**: Add optional Transak alternate flow with default and windowed modes (#549)
-  - Add `showWalletAuthOptionsFirst` parameter to control connector ordering (#563)
-  - Update Sequence logos with newest logo (#561)
-  - Better logic for initial balance check (#562)
-  - Change injected connector logic to display before others (#563)
-  - Fix Transak parameters (#557)
-  - Add funds height when error state (#556)
-  - Add message for rejected transactions (#559)
-  - Deprecate `findVersion` (#560)
+# @0xsequence/immutable-connector
 
 ## 5.4.1
 
@@ -154,11 +6,19 @@
 
 - Fix for add funds setting
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.4.1
+
 ## 5.4.0
 
 ### Major Changes
 
 - Removal of transak-related configuration parameters
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.4.0
 
 ## 5.3.29
 
@@ -166,11 +26,17 @@
 
 - Preview mode
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.29
+
 ## 5.3.28
 
 ### Patch Changes
 
 - Minor fixes and improvements
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.28
 
 ## 5.3.27
 
@@ -178,11 +44,17 @@
 
 - fix for databeat events
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.27
+
 ## 5.3.26
 
 ### Patch Changes
 
 - Chain id override optio
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.26
 
 ## 5.3.25
 
@@ -190,11 +62,17 @@
 
 - Improvement for wallet URL init
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.25
+
 ## 5.3.24
 
 ### Patch Changes
 
 - removed default networks from add funds
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.24
 
 ## 5.3.23
 
@@ -202,11 +80,17 @@
 
 - Allow disabling Add Funds button
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.23
+
 ## 5.3.22
 
 ### Patch Changes
 
 - Fix fetchTransaction receipt condition
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.22
 
 ## 5.3.21
 
@@ -214,11 +98,17 @@
 
 - Transaction receipt fetch improvement
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.21
+
 ## 5.3.20
 
 ### Patch Changes
 
 - Removed subscription for receipts in favor of api call
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.20
 
 ## 5.3.19
 
@@ -226,11 +116,17 @@
 
 - Fix for ERC20: insufficient allowance bug during swap and pay
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.19
+
 ## 5.3.18
 
 ### Patch Changes
 
 - Bug fixes
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.18
 
 ## 5.3.17
 
@@ -238,11 +134,17 @@
 
 - fixes related to undefined walletClient
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.17
+
 ## 5.3.16
 
 ### Patch Changes
 
 - Improve connect sdk preview, add custom embedded wallet title option
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.16
 
 ## 5.3.15
 
@@ -250,11 +152,17 @@
 
 - Forte Pay NFT checkout support
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.15
+
 ## 5.3.14
 
 ### Patch Changes
 
 - Customization class in checkout
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.14
 
 ## 5.3.13
 
@@ -262,17 +170,26 @@
 
 - Minor fixes
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.13
+
 ## 5.3.12
 
 ### Patch Changes
 
 - Checkout SDK fixes and improvements
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.12
+
 ## 5.3.11
 
 ### Patch Changes
 
 - Fix for waas connector modal
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.11
 
 ## 5.3.10
 
@@ -284,6 +201,8 @@
   - show success action buttons
   - allow cursor pagination for the useGetTokenDetails hook intial params
   - removed toast errors and replace them by in-modal error messages
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.10
 
 ## 5.3.9
 
@@ -291,6 +210,8 @@
 
 - - erc1155SaleContract fix
   - X auth support for Embedded Wallet
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.9
 
 ## 5.3.8
 
@@ -298,11 +219,17 @@
 
 - erc1155SaleContract fix
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.8
+
 ## 5.3.7
 
 ### Patch Changes
 
 - Exported the useTransactionStatusModal
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.7
 
 ## 5.3.6
 
@@ -310,11 +237,17 @@
 
 - Minor fixes for Epic Auth
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.6
+
 ## 5.3.5
 
 ### Patch Changes
 
 - Epic Auth support
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.5
 
 ## 5.3.4
 
@@ -322,11 +255,17 @@
 
 - Fixes to checkout flow
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.4
+
 ## 5.3.3
 
 ### Patch Changes
 
 - made the tokenId field optional
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.3
 
 ## 5.3.2
 
@@ -334,11 +273,17 @@
 
 - added error message for geoblocked waas connections; more fields added to events
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.2
+
 ## 5.3.1
 
 ### Patch Changes
 
 - Fix for effective price used by sale contract utility functions
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.1
 
 ## 5.3.0
 
@@ -346,11 +291,19 @@
 
 - Conversion to nodeNext, various fixes
 
+### Patch Changes
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.3.0
+
 ## 5.2.3
 
 ### Patch Changes
 
 - updated endpoints used for swaps
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.2.3
 
 ## 5.2.2
 
@@ -359,6 +312,8 @@
 - - Added nativeTokenAddress to SelectPaymentSettings to allow for custom native token addresses
   - Added options to setOpenWalletModal
   - Added config for disabling social login tooltips
+- Updated dependencies []:
+  - @0xsequence/connect@5.2.2
 
 ## 5.2.1
 
@@ -366,11 +321,17 @@
 
 - Usage of pagination by hooks
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.2.1
+
 ## 5.2.0
 
 ### Minor Changes
 
 - useCheckoutUI hook
+
+- Updated dependencies []:
+  - @0xsequence/connect@5.2.0
 
 ## 5.1.1
 
@@ -378,68 +339,16 @@
 
 - swap api v2 migration
 
+- Updated dependencies []:
+  - @0xsequence/connect@5.1.1
+
 ## 5.1.0
 
 ### Minor Changes
 
 - immutable connector release; other fixes
 
-## 5.0.9
-
 ### Patch Changes
 
-- Wallet linking fixes
-
-## 5.0.8
-
-### Patch Changes
-
-- various fixes related to iframes, credit card providers, documentation
-
-## 5.0.7
-
-### Patch Changes
-
-- approvedSpenderAddress field integrated to approve step in checkout
-
-## 5.0.6
-
-### Patch Changes
-
-- Stricter lint rules for react hooks and related fixes
-
-## 5.0.5
-
-### Patch Changes
-
-- Fixing marketplace api url
-
-## 5.0.4
-
-### Patch Changes
-
-- Ecosystem wallet connector
-
-## 5.0.3
-
-### Patch Changes
-
-- Sardine onramp and design-system theme fix
-
-## 5.0.2
-
-### Patch Changes
-
-- Fixing hex encoding of encodeFunctionData while sending collectibles
-
-## 5.0.1
-
-### Patch Changes
-
-- Wallet widget styles were not being included in the css build
-
-## 5.0.0
-
-### Major Changes
-
-- Web SDK - Initial release
+- Updated dependencies []:
+  - @0xsequence/connect@5.1.0
